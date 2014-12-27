@@ -4,7 +4,7 @@
     'version': '0.1.1',
     'category': 'Hidden',
     'description': """
-<%= addon_name %> 描述
+<%= addon_name %> Description
     """,
     'author': 'NextTao',
     'depends': ['base'],
