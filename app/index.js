@@ -21,21 +21,21 @@ module.exports = yeoman.generators.Base.extend({
     this.log(yosay(
       'Welcome to the ' + chalk.red('OpenERP Addon') + ' generator!'
     ));
-    this.log(chalk.yellow('!!!有些基础代码和文件，可能项目经理已经帮你建好了，注意不要覆盖'));
+    this.log(chalk.yellow('!!!Une partie du code sous-jacent et les fichiers, vous pourriez avoir à vous aider à construire le chef de projet, et faire attention à ne pas écraser'));
 
 
     var prompts = [];
 
     prompts.push({
       name: 'addon_name',
-      message: 'Addon 名称',
+      message: 'Addon name',
       default: this.addon_name
     });
 
     prompts.push({
       type: 'confirm',
       name: 'npm_install',
-      message: '是否执行 `npm install`？',
+      message: 'Que ce soit pour effectuer des `npm install`？',
       default: false
     });
 
